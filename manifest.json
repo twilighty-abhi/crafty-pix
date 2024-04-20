@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "My Homescreen",
+    "name": "Crafty Pix",
     "version": "1.0",
     "description": "An Detox search bar for kids.",
     "chrome_url_overrides": {
