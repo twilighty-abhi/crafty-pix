@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right bottom, #f44336, #e91e63); /* Gradient Background */
+    background: linear-gradient(to right bottom, #09f1ac, #4b4b4b); /* Gradient Background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,4 +42,5 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    margin-top: 10px; 
 }
