@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "My Homescreen",
+    "version": "1.0",
+    "description": "An Detox search bar for kids.",
+    "chrome_url_overrides": {
+      "newtab": "homescreen.html"
+    }
+  }
