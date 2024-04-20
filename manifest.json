@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "My Homescreen",
     "version": "1.0",
     "description": "An Detox search bar for kids.",
