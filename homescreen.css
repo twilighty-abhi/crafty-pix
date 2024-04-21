@@ -2,13 +2,16 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right bottom, #09f1ac, #4b4b4b); /* Gradient Background */
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    animation: gradientAnimation 10s ease-in-out infinite alternate;}
-
+    background-image: 
+    linear-gradient(to right bottom, #f44336, #e91e63),
+    linear-gradient(to left top, #2196F3, #9C27B0);
+  background-size: cover;
+  background-position: center;
+  animation: gradientAnimation 10s ease-in-out infinite alternate;
 h1 {
     text-align: center;
     color: rgb(31, 31, 31);
