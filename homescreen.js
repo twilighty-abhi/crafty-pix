@@ -18,5 +18,5 @@ function performSearch() {
     }
   });
   
-  // Event listener for search button click
+
   document.getElementById('search-button').addEventListener('click', performSearch);
