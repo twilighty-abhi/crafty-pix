@@ -2,7 +2,8 @@
 
 function performSearch() {
     const searchText = document.getElementById('search-bar').value;
-    const geminiPrompt = `Gemini, how do I make ${searchText}`; // text concatnator
+    const geminiPrompt = `Gemini, how do I make ${searchText}. Explain how to make it. explain as to a 5 year old. show the way as different steps. show also relevant links'
+    `; // text concatnator
   
     // ... (your API interaction logic) ...
   

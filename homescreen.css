@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}
+    animation: gradientAnimation 10s ease-in-out infinite alternate;}
 
 h1 {
     text-align: center;
@@ -44,3 +44,21 @@ h1 {
     font-size: 16px;
     margin-top: 10px; 
 }
+
+@keyframes gradientAnimation {
+    0% {
+      background: linear-gradient(to right bottom, #f44336, #e91e63);
+    }
+    25% {
+      background: linear-gradient(to right bottom, #e91e63, #9C27B0); 
+    }
+    50% {
+      background: linear-gradient(to right bottom, #2196F3, #9C27B0);
+    }
+    75% {
+      background: linear-gradient(to right bottom, #9C27B0, #FFC107);
+    }
+    100% {
+      background: linear-gradient(to right bottom, #4CAF50, #FFC107);
+    }
+  }
